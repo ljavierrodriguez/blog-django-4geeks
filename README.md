@@ -1,10 +1,14 @@
 # BLOG EN DJANGO
 ## INSTRUCCIONES
 
-#### Ejecutar
+#### Ejecutar para clonar el repositorio
 git clone https://github.com/ljavierrodriguez/blog-django-4geeks.git
+
+##### Ingresamos dentro de la carpeta del proyecto
 cd blog-django-4geeks
-python -m venv env # Creamos el entorno virtual para el proyecto
+
+##### Creamos el entorno virtual para el proyecto
+python -m venv env
 
 ##### Instalamos todas las dependencias del proyecto
 pip install -r requeriments.txt
@@ -13,7 +17,7 @@ pip install -r requeriments.txt
 python manage.py migrate
 
 ##### Seguimos las instrucciones para crear el super usuario
-python manage.py createsuperuser # Seguimos las instrucciones para crear el super usuario
+python manage.py createsuperuser
 
 ##### Ponemos en marcha nuestro servidor web con el siguiente comando
 python manage.py runserver
