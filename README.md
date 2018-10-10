@@ -10,6 +10,14 @@ cd blog-django-4geeks
 ##### Creamos el entorno virtual para el proyecto
 python -m venv env
 
+##### Activamos el entorno virtual antes de instalar las dependencias
+
+##### Linux o Mac
+. env/bin/activate
+
+##### Windows
+venv\Scripts\activate
+
 ##### Instalamos todas las dependencias del proyecto
 pip install -r requeriments.txt
 
